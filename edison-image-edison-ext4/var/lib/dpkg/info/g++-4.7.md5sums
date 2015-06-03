@@ -1,0 +1,17 @@
+f7a04abf7ba9dd70e6f2b01e1b31c69f  usr/bin/g++-4.7
+eb4109a494144984d7a2a6882abdfe2b  usr/lib/gcc/i486-linux-gnu/4.7/cc1plus
+d34e924e0b649f39a4c876c1a4ec4e1f  usr/share/doc/gcc-4.7-base/C++/README.C++
+422acda4c685e80932dc24fea6445951  usr/share/doc/gcc-4.7-base/C++/changelog.gz
+a6f1efe5ecea370620a2a4ab2caf2205  usr/share/doc/gcc-4.7-base/test-summaries/boehm-gc.sum
+ef94ca2581d7b38f25345b1043be0ce7  usr/share/doc/gcc-4.7-base/test-summaries/g++.sum.gz
+f693d2d9a7cdda23a43a0645f434e5ac  usr/share/doc/gcc-4.7-base/test-summaries/gcc.sum.gz
+b41edfb0161a865da301db1fdee998ca  usr/share/doc/gcc-4.7-base/test-summaries/gfortran.sum.gz
+1c67a0596a759f98f3211d33c84f5fb4  usr/share/doc/gcc-4.7-base/test-summaries/go.sum.gz
+40c5a10e303b3866bfb9dd18ea711e4b  usr/share/doc/gcc-4.7-base/test-summaries/libffi.sum.gz
+fb673173bcd3b5fc056c8ccbdc504f05  usr/share/doc/gcc-4.7-base/test-summaries/libgo.sum.gz
+7b240dacbd35bca40942ca2b716a338c  usr/share/doc/gcc-4.7-base/test-summaries/libgomp.sum.gz
+821fec807396d865be1ecc774742b17c  usr/share/doc/gcc-4.7-base/test-summaries/libitm.sum.gz
+639c29e5f642d00844d4574ca7b6f6a8  usr/share/doc/gcc-4.7-base/test-summaries/libmudflap.sum.gz
+1482659f5f27478ed367179c21a2de2e  usr/share/doc/gcc-4.7-base/test-summaries/libstdc++.sum.gz
+c087f911368365eabb424cf3e0e7822c  usr/share/doc/gcc-4.7-base/test-summaries/obj-c++.sum.gz
+2be1b46f3f23838f6f5069d9a01f1af0  usr/share/doc/gcc-4.7-base/test-summaries/objc.sum.gz

@@ -1,0 +1,28 @@
+Package: nodejs
+Format: 3.0 (quilt)
+Binary: nodejs, nodejs-dbg
+Architecture: any
+Version: 0.10.35-1nodesource1~wheezy1
+Maintainer: Chris Lea <chl@nodesource.com>
+Homepage: http://nodejs.org/
+Standards-Version: 3.8.4
+Build-Depends: debhelper (>= 7), python, quilt (>= 0.46-7~), binutils, libssl-dev (>= 0.9.8), pkg-config
+Package-List:
+ nodejs deb web extra
+ nodejs-dbg deb debug extra
+Priority: extra
+Section: web
+Directory: pool/main/n/nodejs
+Files: 
+ d5d5b8bb981ddf692a61dc19164cfa01 1899 nodejs_0.10.35-1nodesource1~wheezy1.dsc
+ f4a61766465053675c08de667b467f21 14555746 nodejs_0.10.35.orig.tar.gz
+ 9a615eeb0edc3397c515cbb153a136ab 14890 nodejs_0.10.35-1nodesource1~wheezy1.debian.tar.gz
+Checksums-Sha1: 
+ f668c77e71bd83c3c52b6d4e9fff75b7e9fc7d3b 1899 nodejs_0.10.35-1nodesource1~wheezy1.dsc
+ f2bc8065372a88bb6427b80c40db195a02c6be66 14555746 nodejs_0.10.35.orig.tar.gz
+ 600a50781f4c848165002dc165226ae784dedc65 14890 nodejs_0.10.35-1nodesource1~wheezy1.debian.tar.gz
+Checksums-Sha256: 
+ a1c917f508b7d1db7378ac8fd3f4f0ff1eda26aae9a00e639bfa8db368cefac1 1899 nodejs_0.10.35-1nodesource1~wheezy1.dsc
+ 1b741c08baa759efa0af302f66b45f775eb0d352eee58cc575a6f8025d04b1ca 14555746 nodejs_0.10.35.orig.tar.gz
+ a875758cdd94ac3dfe93d1724df4cb9d1792a772399873465b1941139327dd3d 14890 nodejs_0.10.35-1nodesource1~wheezy1.debian.tar.gz
+

@@ -1,0 +1,46 @@
+Origin: Node Source
+Label: Node Source
+Codename: wheezy
+Date: Mon, 02 Feb 2015 05:08:44 UTC
+Architectures: i386 amd64 armhf
+Components: main
+Description: Apt Repository for Node.JS
+MD5Sum:
+ 27e3cb7eb7e54c6a8b57a9cc1328bf58 5609 main/binary-i386/Packages
+ b27d09bd34878f2d59a01cf2e54d7aab 1716 main/binary-i386/Packages.gz
+ 858bcc6f092bf9a62b95ec25133a16fc 114 main/binary-i386/Release
+ 45b6485feb59ea4854daca867310ce2e 5619 main/binary-amd64/Packages
+ ad5281942819fa0568ee0cf875bca3a9 1722 main/binary-amd64/Packages.gz
+ ebcbc5a586d54ca7a0899d0cbc5cdab5 115 main/binary-amd64/Release
+ 87a0093cb445541cb91d1234ef4e4b8f 2254 main/binary-armhf/Packages
+ 607d87993d9dc9c6e7884cb3ac0a5b0d 934 main/binary-armhf/Packages.gz
+ 721cd7a3a302487ca2b1dca9e74258c3 115 main/binary-armhf/Release
+ 81b75005d26601e437d94a6e24277db6 1326 main/source/Sources
+ 04d17cdb443fc5b32c981d2b0bd49d02 678 main/source/Sources.gz
+ c1ddc3434e3b1071bb4049689446e8a8 116 main/source/Release
+SHA1:
+ f04f03e9e71da7bef91b29468756c8cad7d11c4c 5609 main/binary-i386/Packages
+ 3abd44c3ae910651b9901d10bf4682d4667d40a3 1716 main/binary-i386/Packages.gz
+ babad9e9ef91e8e9f25072469cb3cacf37c1eeb2 114 main/binary-i386/Release
+ e9b399303d6ac1cf1a22af675ebdb30885190bfe 5619 main/binary-amd64/Packages
+ ca9510c1964461dfdd9516bdf848c492ac3da986 1722 main/binary-amd64/Packages.gz
+ 034ed7854f4ef3fe3bba8a19c2a8e0a735312580 115 main/binary-amd64/Release
+ 7192cb8643fa5e2c6a704215d9e36bbacea0971e 2254 main/binary-armhf/Packages
+ bb0d73b5213401609fff2d575b038626c796668a 934 main/binary-armhf/Packages.gz
+ e1a4368c7c97d93c775eb481da4f975ff00ca98b 115 main/binary-armhf/Release
+ 49bd0c4ca4a79b6e39e24f3f96c097e57a8b249a 1326 main/source/Sources
+ ea63ae891eeead1a0d1d52619c06c2ed462a52cf 678 main/source/Sources.gz
+ a722052b58db6ccc3213b13f5c854cd7a7f4ab4d 116 main/source/Release
+SHA256:
+ fc66185e88da6324153555b31a476187490c87c3d67ff88c53058179615fdff3 5609 main/binary-i386/Packages
+ d7b103ab15be34d65aa7bce10fe52a8aa85c9d22767fe5d5125239ee2a7584a5 1716 main/binary-i386/Packages.gz
+ f7cb044aad412645efd0863f196d77112315034f96097fa4649dfeaffc975882 114 main/binary-i386/Release
+ f2a6940fe72bb4a01d356a148d8333c054d84f2f91f8738003e4efc0e7021ce1 5619 main/binary-amd64/Packages
+ c756aeb4a304725f807a2c4b54106ca69e53c03c08451b27541f513f6acc4a95 1722 main/binary-amd64/Packages.gz
+ 94b5ac1474328b250dda1f9c2d3c6faef49be577e2d040a3bf82539416b7e590 115 main/binary-amd64/Release
+ d817f75192ec28efdc6ab560d55770583467383be26a486f66b5ac3f3c4fbd4d 2254 main/binary-armhf/Packages
+ 7081b290fd02ef63ec1e63710f5b86dac6585914ddf01d489ef74fe4319d94d4 934 main/binary-armhf/Packages.gz
+ f506560ef59c0cfe16e7c22f6cfd5e97d1e522878b9713eb9e64b201f26caed0 115 main/binary-armhf/Release
+ 4ec1f838c1f2ca5f0f04aabfda9a34cdde7ea45f841de0c5065cf0a4f3f80b97 1326 main/source/Sources
+ f8786e1283a4f09c0b5a69893dbcc3f77e2bf9005c5d3475853b7e215fe7eaf8 678 main/source/Sources.gz
+ d22c7052b7fed518c59760fc426ce1cccc44ec595a8d91aa544f3acd623f2297 116 main/source/Release

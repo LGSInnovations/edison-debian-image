@@ -1,0 +1,4 @@
+# usb module         match_flags idVendor idProduct bcdDevice_lo bcdDevice_hi bDeviceClass bDeviceSubClass bDeviceProtocol bInterfaceClass bInterfaceSubClass bInterfaceProtocol driver_info
+ftdi_sio             0x0003      0x0403   0xf7c0    0x0000       0x0000       0x00         0x00            0x00            0x00            0x00               0x00               0x0
+option               0x0003      0x0af0   0x5000    0x0000       0x0000       0x00         0x00            0x00            0x00            0x00               0x00               0x0
+uvcvideo             0x0383      0x0416   0xa91a    0x0000       0x0000       0x00         0x00            0x00            0x0e            0x01               0x00               0x0

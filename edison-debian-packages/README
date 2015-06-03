@@ -1,0 +1,18 @@
+If your Edison doesn't have internet it can't get some packages.  As
+the point of the Edison-Ethernet project is to give internet to those
+without wireless, that may be difficult.  It is also difficult to get
+packages on the device without networking.  You can place these packages
+in:
+
+/var/cache/apt/archives
+
+and install with the command:
+
+apt-get install -y sudo macchanger
+
+this is something that could be done in the /sbin/first-install.sh script
+
+apt-get clean
+
+is a useful command to clean up those packages once they are installed and
+save some space.

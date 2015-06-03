@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libv8-3.14.5
+/usr/share/doc/libv8-3.14.5/AUTHORS
+/usr/share/doc/libv8-3.14.5/changelog.Debian.gz
+/usr/share/doc/libv8-3.14.5/changelog.gz
+/usr/share/doc/libv8-3.14.5/copyright
+/usr/share/doc/libv8-3.14.5/buildinfo_i386.gz
+/usr/lib
+/usr/lib/libv8.so.3.14.5

@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+[ "$1" = configure ] || exit 0
+
+umask 022
+rm -f /etc/minicom/minirc.*.dpkg-tmp
+for i in `find /etc/minicom -name 'minirc.*' -type f ! -name '*~'`; do
+	if grep -iq '^pr[[:space:]][[:space:]]*port[[:space:]]' $i; then
+		sed 's/^pr\([[:space:]][[:space:]]*port[[:space:]]\)/pu\1/i' $i > $i.dpkg-tmp
+		mv -fb $i.dpkg-tmp $i
+	fi
+done
+
+if [ -x /usr/bin/update-menus ]; then
+	update-menus
+fi
+
+exit 0

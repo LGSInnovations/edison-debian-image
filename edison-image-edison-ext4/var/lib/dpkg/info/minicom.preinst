@@ -1,0 +1,39 @@
+#!/bin/sh
+#
+# This file contains compatibility stuff for upgrades
+# from minicom < 2.00.0 only.
+
+set -e
+
+[ "$1" = install ] || [ "$1" = upgrade ] || exit 0
+
+umask 022
+
+if [ -f /etc/minirc.dfl ]; then
+	mkdir -p /etc/minicom
+	if [ -e /etc/minicom/minirc.dfl ]; then
+		mv -fb /etc/minirc.dfl /etc/minicom/minirc.dfl.very-old 2> /dev/null || true
+	else
+		mv -fb /etc/minirc.dfl /etc/minicom 2> /dev/null || true
+	fi
+fi
+			
+if [ -f /etc/minicom.users ]; then
+	mkdir -p /etc/minicom
+	if [ -e /etc/minicom/minicom.users ]; then
+		mv -fb /etc/minicom.users /etc/minicom/minicom.users.very-old 2> /dev/null || true
+	else
+		mv -fb /etc/minicom.users /etc/minicom 2> /dev/null || true
+	fi
+fi
+
+# see #120350
+if [ -d /usr/share/doc/minicom/examples ]; then
+	chmod 0755 /usr/share/doc/minicom/examples
+fi
+
+rm -f /etc/minicom.noconf \
+	/etc/minircdfl.moved-by-preinst \
+	/etc/minicom.users.moved-by-preinst
+
+exit 0

@@ -1,0 +1,15 @@
+minicom for Debian
+------------------
+
+minicom normally needs to be setuid root so normal users can access the
+devices. In Debian, minicom is not setuid root and users need to be added
+to the `dialout' group to be able to access serial devices.
+
+After minicom has been installed, you should run minicom as root with the
+`-s' flag to set the system-wide configuration, which will be written to
+/etc/minicom/minirc.dfl.
+
+If the terminfo definition provided with minicom doesn't work for you,
+the font can be switched using `setfont'.
+
+ -- Martin A. Godisch <godisch@debian.org>  Sun, 30 Mar 2003 21:58:36 +0200

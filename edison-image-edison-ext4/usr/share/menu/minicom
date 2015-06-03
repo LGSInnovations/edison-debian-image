@@ -1,0 +1,6 @@
+?package(minicom):needs="text" section="Applications/Network/Communication" \
+  title="Minicom" command="/usr/bin/minicom" \
+  hints="Terminal"
+?package(minicom):needs="x11" section="Applications/Network/Communication" \
+  title="Minicom (X11)" command="/usr/bin/xminicom" \
+  hints="Terminal"

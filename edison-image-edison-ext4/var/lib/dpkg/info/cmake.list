@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/bin
+/usr/bin/cpack
+/usr/bin/cmake
+/usr/bin/ctest
+/usr/share
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/cmake.1.gz
+/usr/share/man/man1/ctest.1.gz
+/usr/share/man/man1/cpack.1.gz
+/usr/share/doc
+/usr/share/doc/cmake

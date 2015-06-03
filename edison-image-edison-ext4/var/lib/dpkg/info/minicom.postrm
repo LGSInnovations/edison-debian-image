@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+if [ -x /usr/bin/update-menus ]; then
+	update-menus
+fi
+
+if [ "$1" = purge ]; then
+	if [ -e /usr/share/debconf/confmodule ]; then
+		. /usr/share/debconf/confmodule
+		db_purge
+	fi
+	rm -f /etc/minicom.users* /etc/minicom/minirc.*
+	if ! rmdir /etc/minicom 2> /dev/null; then
+		echo "Cannot remove /etc/minicom, please do it manually."
+	fi
+fi
+
+exit 0

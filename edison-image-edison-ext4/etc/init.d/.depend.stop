@@ -1,0 +1,10 @@
+TARGETS = hostapd udhcpd avahi-daemon galileod.sh urandom sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot halt reboot
+sendsigs: udhcpd avahi-daemon hostapd
+rsyslog: udhcpd avahi-daemon sendsigs
+umountnfs.sh: udhcpd avahi-daemon rsyslog sendsigs hostapd
+hwclock.sh: rsyslog
+networking: umountnfs.sh
+umountfs: udhcpd avahi-daemon networking urandom umountnfs.sh hostapd hwclock.sh
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

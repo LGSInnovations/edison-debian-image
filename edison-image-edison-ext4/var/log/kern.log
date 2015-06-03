@@ -1,0 +1,51 @@
+Feb 16 11:25:35 animal kernel: imklog 5.8.11, log source = ksyslog started.
+Feb 16 11:26:13 animal kernel: [1479304.192998] EXT4-fs (loop2): error count since last fsck: 12
+Feb 16 11:26:13 animal kernel: [1479304.193018] EXT4-fs (loop2): initial error at time 1414512034: ext4_mb_generate_buddy:756
+Feb 16 11:29:52 animal kernel: [1479523.412032] EXT4-fs (loop3): mounted filesystem with ordered data mode. Opts: (null)
+Feb 16 11:32:01 animal kernel: [1479652.258314] EXT4-fs error (device loop3): ext4_mb_generate_buddy:756: group 1, block bitmap and bg descriptor inconsistent: 18290 vs 19723 free clusters
+Feb 16 11:32:01 animal kernel: [1479652.277733] JBD2: Spotted dirty metadata buffer (dev = loop3, blocknr = 0). There's a risk of filesystem corruption in case of system crash.
+Feb 16 11:32:01 animal kernel: [1479652.278114] JBD2: Spotted dirty metadata buffer (dev = loop3, blocknr = 0). There's a risk of filesystem corruption in case of system crash.
+Feb 16 11:32:01 animal kernel: [1479652.278060] EXT4-fs error (device loop3): ext4_mb_generate_buddy:756: group 6, block bitmap and bg descriptor inconsistent: 14144 vs 12712 free clusters
+Feb 16 11:54:07 animal kernel: [1480978.671856] EXT4-fs (loop3): warning: mounting fs with errors, running e2fsck is recommended
+Feb 16 14:19:12 animal kernel: [1489684.450328] EXT4-fs (loop1): initial error at time 1414512034: ext4_mb_generate_buddy:756
+Feb 17 15:26:27 animal kernel: [1580128.193242] EXT4-fs error (device loop3): ext4_mb_generate_buddy:756: group 1, block bitmap and bg descriptor inconsistent: 18290 vs 19723 free clusters
+Feb 17 15:26:27 animal kernel: [1580128.345582] JBD2: Spotted dirty metadata buffer (dev = loop3, blocknr = 0). There's a risk of filesystem corruption in case of system crash.
+Feb 17 15:26:35 animal kernel: [1580135.848411] EXT4-fs error (device loop3): ext4_mb_generate_buddy:756: group 6, block bitmap and bg descriptor inconsistent: 14144 vs 12712 free clusters
+Feb 17 15:26:35 animal kernel: [1580135.893101] JBD2: Spotted dirty metadata buffer (dev = loop3, blocknr = 0). There's a risk of filesystem corruption in case of system crash.
+Feb 17 17:05:31 animal kernel: [1586072.477397] [sched_delayed] sched: RT throttling activated
+Feb 17 17:06:58 animal kernel: [1586159.314179] EXT4-fs error (device loop3): ext4_mb_generate_buddy:756: group 1, block bitmap and bg descriptor inconsistent: 18290 vs 19723 free clusters
+Feb 17 17:06:58 animal kernel: [1586159.335009] EXT4-fs error (device loop3): ext4_mb_generate_buddy:756: group 6, block bitmap and bg descriptor inconsistent: 14144 vs 12712 free clusters
+Feb 17 17:06:58 animal kernel: [1586159.355378] JBD2: Spotted dirty metadata buffer (dev = loop3, blocknr = 0). There's a risk of filesystem corruption in case of system crash.
+Feb 17 17:06:58 animal kernel: [1586159.358248] JBD2: Spotted dirty metadata buffer (dev = loop3, blocknr = 0). There's a risk of filesystem corruption in case of system crash.
+Feb 18 10:01:31 animal kernel: [1647038.201184] EXT4-fs (loop3): mounted filesystem with ordered data mode. Opts: (null)
+Feb 18 10:02:43 animal kernel: [1647110.356268] EXT4-fs (loop3): mounted filesystem with ordered data mode. Opts: (null)
+Feb 18 11:32:24 animal kernel: [1652491.447425] EXT4-fs (loop0): error count since last fsck: 16
+Feb 18 11:32:24 animal kernel: [1652491.447435] EXT4-fs (loop2): error count since last fsck: 12
+Feb 18 11:32:24 animal kernel: [1652491.447461] EXT4-fs (loop0): initial error at time 1414512034: ext4_mb_generate_buddy:756
+Feb 18 11:32:24 animal kernel: [1652491.447463] EXT4-fs (loop2): initial error at time 1414512034: ext4_mb_generate_buddy:756
+Feb 18 11:32:24 animal kernel: [1652491.447468] EXT4-fs (loop2): last error at time 1424085705: ext4_mb_generate_buddy:756
+Feb 18 11:32:24 animal kernel: [1652491.447470] 
+Feb 18 11:32:24 animal kernel: [1652491.447471] EXT4-fs (loop0): last error at time 1423826124: ext4_mb_generate_buddy:756
+Feb 18 12:35:18 animal kernel: [1656266.009787] grub-mount[2687]: segfault at 0 ip 00007fe229164a03 sp 00007fff2c995c90 error 4 in libfuse.so.2.9.2[7fe22914d000+28000]
+Feb 18 12:35:19 animal kernel: [1656267.462403] grub-mount[3778]: segfault at 0 ip 00007fa47a8a4a03 sp 00007fff3f541830 error 4 in libfuse.so.2.9.2[7fa47a88d000+28000]
+Feb 18 14:22:47 animal kernel: [1662716.040428] EXT4-fs (loop1): error count since last fsck: 18
+Feb 18 14:50:01 animal kernel: [1664349.753327] xprt_adjust_timeout: rq_timeout = 0!
+Feb 18 14:50:01 animal kernel: [1664349.753332] lockd: server 10.10.52.15 not responding, still trying
+Feb 18 14:50:01 animal kernel: [1664349.755114] lockd: server 10.10.52.15 OK
+Feb 18 15:15:35 animal kernel: [1665883.757789] xprt_adjust_timeout: rq_timeout = 0!
+Feb 18 15:15:35 animal kernel: [1665883.757794] lockd: server 10.10.52.15 not responding, still trying
+Feb 18 15:15:35 animal kernel: [1665883.759568] lockd: server 10.10.52.15 OK
+Feb 18 16:49:02 animal kernel: [1671492.059876] lockd: server 10.10.52.15 OK
+Feb 19 14:11:34 animal kernel: [1748451.513555] lockd: server 10.10.52.15 not responding, still trying
+Feb 19 14:11:34 animal kernel: [1748451.522777] lockd: server 10.10.52.15 OK
+Feb 19 14:24:35 animal kernel: [1749231.840264] EXT4-fs (loop1): last error at time 1423836789: ext4_mb_generate_buddy:756
+Feb 21 14:28:10 animal kernel: [1922263.444631] EXT4-fs (loop1): last error at time 1423836789: ext4_mb_generate_buddy:756
+Feb 22 11:39:34 animal kernel: [1998554.648428] EXT4-fs (loop2): error count since last fsck: 12
+Feb 22 11:39:34 animal kernel: [1998554.648435] EXT4-fs (loop0): error count since last fsck: 16
+Feb 22 11:39:34 animal kernel: [1998554.648453] EXT4-fs (loop0): initial error at time 1414512034: ext4_mb_generate_buddy:756
+Feb 22 11:39:34 animal kernel: [1998554.648458] EXT4-fs (loop0): last error at time 1423826124: ext4_mb_generate_buddy:756
+Feb 22 11:39:34 animal kernel: [1998554.648472] EXT4-fs (loop2): initial error at time 1414512034: ext4_mb_generate_buddy:756
+Feb 22 11:39:34 animal kernel: [1998554.648474] EXT4-fs (loop2): last error at time 1424085705: ext4_mb_generate_buddy:756
+Feb 22 14:29:57 animal kernel: [2008779.243495] EXT4-fs (loop1): error count since last fsck: 18
+Feb 22 14:29:57 animal kernel: [2008779.243499] EXT4-fs (loop1): initial error at time 1414512034: ext4_mb_generate_buddy:756
+Feb 22 14:29:57 animal kernel: [2008779.243502] EXT4-fs (loop1): last error at time 1423836789: ext4_mb_generate_buddy:756

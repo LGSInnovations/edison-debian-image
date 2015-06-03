@@ -1,0 +1,6 @@
+Feb 16 11:26:52 animal avahi-daemon[10549]: Found user 'avahi' (UID 104) and group 'avahi' (GID 107).
+Feb 16 11:26:52 animal avahi-daemon[10549]: Successfully dropped root privileges.
+Feb 16 11:26:52 animal avahi-daemon[10549]: avahi-daemon 0.6.31 starting up.
+Feb 16 11:26:52 animal avahi-daemon[10549]: dbus_bus_get_private(): Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+Feb 16 11:26:52 animal avahi-daemon[10549]: WARNING: Failed to contact D-Bus daemon.
+Feb 16 11:26:52 animal avahi-daemon[10549]: avahi-daemon 0.6.31 exiting.

@@ -1,0 +1,5 @@
+tools/ubcsp.o: tools/ubcsp.c config.h tools/ubcsp.h
+
+config.h:
+
+tools/ubcsp.h:

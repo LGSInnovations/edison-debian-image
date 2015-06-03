@@ -1,0 +1,7 @@
+Feb 16 11:26:51 animal groupadd[10473]: group added to /etc/group: name=avahi, GID=107
+Feb 16 11:26:51 animal groupadd[10473]: group added to /etc/gshadow: name=avahi
+Feb 16 11:26:51 animal groupadd[10473]: new group: name=avahi, GID=107
+Feb 16 11:26:51 animal useradd[10477]: new user: name=avahi, UID=104, GID=107, home=/var/run/avahi-daemon, shell=/bin/false
+Feb 16 11:26:51 animal usermod[10482]: change user 'avahi' password
+Feb 16 11:26:52 animal chage[10487]: changed password expiry for avahi
+Feb 16 11:26:52 animal chfn[10490]: changed user 'avahi' information

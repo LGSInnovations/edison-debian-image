@@ -1,0 +1,11 @@
+Package: kernel-package-3.10.17-poky-edison-r2
+Maintainer: David Hunt <dave@emutex.com>
+Architecture: i386
+Version: 2015.02.10
+Filename: kernel/kernel-package-3.10.17-poky-edison-r2.deb
+Size: 14079392
+MD5sum: 766f4050e0311f4da040cbe049908866
+SHA1: a854ded709ab0f597a6072e2a0b4b3b6632b7754
+SHA256: 02e12fa6b6eb04cdafb161fd00ae34273d14b6c8cea5f67ec9521b7daf58bb4c
+Description: Kernel and Modules for R2 package
+

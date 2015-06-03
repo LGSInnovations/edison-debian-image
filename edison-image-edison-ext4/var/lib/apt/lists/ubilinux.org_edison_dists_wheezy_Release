@@ -1,0 +1,30 @@
+Origin: Emutex
+Label: Emutex Ubilinux package repository
+Suite: stable
+Codename: wheezy
+Version: 7.0
+Date: Sun, 29 Jun 2014 20:27:49 UTC
+Architectures: i386
+Components: main
+Description: Support Packages for Ubilinux
+MD5Sum:
+ 4c31ee8811209b8e9adf7cbb016f71c8 1368 non-free/binary-i386/Packages
+ 6f3e7ea59cbc372f634520096d77d677 590 non-free/binary-i386/Packages.gz
+ 83be02ba11f91cfc1c0dc10cc179509f 168 non-free/binary-i386/Release
+ 4f45f412f07f2b3795310caf23598773 1370 non-free/binary-amd64/Packages
+ dd2248ee5b2eed435e6f10da78dcb2a6 592 non-free/binary-amd64/Packages.gz
+ 9e390d1378070cb4a30773cd6ec0a71e 169 non-free/binary-amd64/Release
+SHA1:
+ 49a6f726453113307d7e4427b8a7e93cc56f46bb 1368 non-free/binary-i386/Packages
+ 8b4f457bef44ba3e5e639910ae7ce5475adbdf67 590 non-free/binary-i386/Packages.gz
+ 77e91402b33ae9e4c6caa51f1f1c36a58aa45d09 168 non-free/binary-i386/Release
+ ea58adafc0255f653d89e2481ffe9dbbf7673263 1370 non-free/binary-amd64/Packages
+ a4895a9644747d54a3c2755f5cfe8c5175185ec9 592 non-free/binary-amd64/Packages.gz
+ 209be1e32bf6b33ea1251564e63555bff228a5da 169 non-free/binary-amd64/Release
+SHA256:
+ 8b4e178e6b02a75ca4b1fa560aa0540817871ceac927f1ca258367734f76c557 1368 non-free/binary-i386/Packages
+ 0b14dc7ed1aea3e45f092a97a9fb4fae6c6dfd7ee21f253d422207d37c6b4017 590 non-free/binary-i386/Packages.gz
+ c32a0ff71e925ef2403a51655627abc1f390dadf545d07eba31e51fcfe8cde53 168 non-free/binary-i386/Release
+ 8068b964c320cea74f0e41e5ad77efabab8b813fded5e29da79af0bd9fd3042d 1370 non-free/binary-amd64/Packages
+ fdc751cdc9442560d050716c6f242687aa239a9f564408aa5056b96637618630 592 non-free/binary-amd64/Packages.gz
+ 68bb56f248abf522a1dafd8b64a0dc55fa1b61ad0799731d2c184a740031cdab 169 non-free/binary-amd64/Release

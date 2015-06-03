@@ -1,0 +1,78 @@
+Test Run By buildd on Mon Jan  7 04:14:05 2013
+Native configuration is i486-pc-linux-gnu
+
+		=== boehm-gc tests ===
+
+Schedule of variations:
+    unix
+    unix/-fstack-protector
+    unix/-m64
+
+Running target unix
+Running /build/buildd-gcc-4.7_4.7.2-5-i386-kE6fVM/gcc-4.7-4.7.2/src/boehm-gc/testsuite/boehm-gc.c/c.exp ...
+PASS: boehm-gc.c/gctest.c -O2 (test for excess errors)
+PASS: boehm-gc.c/gctest.c -O2 execution test
+PASS: boehm-gc.c/leak_test.c -O2 (test for excess errors)
+PASS: boehm-gc.c/leak_test.c -O2 execution test
+PASS: boehm-gc.c/middle.c -O2 (test for excess errors)
+PASS: boehm-gc.c/middle.c -O2 execution test
+PASS: boehm-gc.c/thread_leak_test.c -O2 (test for excess errors)
+PASS: boehm-gc.c/thread_leak_test.c -O2 execution test
+UNSUPPORTED: boehm-gc.c/trace_test.c -O2
+Running /build/buildd-gcc-4.7_4.7.2-5-i386-kE6fVM/gcc-4.7-4.7.2/src/boehm-gc/testsuite/boehm-gc.lib/lib.exp ...
+PASS: boehm-gc.lib/staticrootslib.c -O2 (test for excess errors)
+PASS: staticrootslib.lo -O2 (test for excess errors)
+PASS: boehm-gc.lib/staticrootstest.c -O2 (test for excess errors)
+PASS: boehm-gc.lib/staticrootstest.c -O2 execution test
+
+		=== boehm-gc Summary for unix ===
+
+# of expected passes		12
+# of unsupported tests		1
+Running target unix/-fstack-protector
+Running /build/buildd-gcc-4.7_4.7.2-5-i386-kE6fVM/gcc-4.7-4.7.2/src/boehm-gc/testsuite/boehm-gc.c/c.exp ...
+PASS: boehm-gc.c/gctest.c -O2 (test for excess errors)
+PASS: boehm-gc.c/gctest.c -O2 execution test
+PASS: boehm-gc.c/leak_test.c -O2 (test for excess errors)
+PASS: boehm-gc.c/leak_test.c -O2 execution test
+PASS: boehm-gc.c/middle.c -O2 (test for excess errors)
+PASS: boehm-gc.c/middle.c -O2 execution test
+PASS: boehm-gc.c/thread_leak_test.c -O2 (test for excess errors)
+PASS: boehm-gc.c/thread_leak_test.c -O2 execution test
+UNSUPPORTED: boehm-gc.c/trace_test.c -O2
+Running /build/buildd-gcc-4.7_4.7.2-5-i386-kE6fVM/gcc-4.7-4.7.2/src/boehm-gc/testsuite/boehm-gc.lib/lib.exp ...
+PASS: boehm-gc.lib/staticrootslib.c -O2 (test for excess errors)
+PASS: staticrootslib.lo -O2 (test for excess errors)
+PASS: boehm-gc.lib/staticrootstest.c -O2 (test for excess errors)
+PASS: boehm-gc.lib/staticrootstest.c -O2 execution test
+
+		=== boehm-gc Summary for unix/-fstack-protector ===
+
+# of expected passes		12
+# of unsupported tests		1
+Running target unix/-m64
+Running /build/buildd-gcc-4.7_4.7.2-5-i386-kE6fVM/gcc-4.7-4.7.2/src/boehm-gc/testsuite/boehm-gc.c/c.exp ...
+PASS: boehm-gc.c/gctest.c -O2 (test for excess errors)
+PASS: boehm-gc.c/gctest.c -O2 execution test
+PASS: boehm-gc.c/leak_test.c -O2 (test for excess errors)
+PASS: boehm-gc.c/leak_test.c -O2 execution test
+PASS: boehm-gc.c/middle.c -O2 (test for excess errors)
+PASS: boehm-gc.c/middle.c -O2 execution test
+PASS: boehm-gc.c/thread_leak_test.c -O2 (test for excess errors)
+PASS: boehm-gc.c/thread_leak_test.c -O2 execution test
+UNSUPPORTED: boehm-gc.c/trace_test.c -O2
+Running /build/buildd-gcc-4.7_4.7.2-5-i386-kE6fVM/gcc-4.7-4.7.2/src/boehm-gc/testsuite/boehm-gc.lib/lib.exp ...
+PASS: boehm-gc.lib/staticrootslib.c -O2 (test for excess errors)
+PASS: staticrootslib.lo -O2 (test for excess errors)
+PASS: boehm-gc.lib/staticrootstest.c -O2 (test for excess errors)
+PASS: boehm-gc.lib/staticrootstest.c -O2 execution test
+
+		=== boehm-gc Summary for unix/-m64 ===
+
+# of expected passes		12
+# of unsupported tests		1
+
+		=== boehm-gc Summary ===
+
+# of expected passes		36
+# of unsupported tests		3

@@ -1,0 +1,326 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<HTML
+><HEAD
+><TITLE
+>Functions</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.79"><LINK
+REL="HOME"
+TITLE="libusb Developers Guide"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Return values"
+HREF="api-return-values.html"><LINK
+REL="NEXT"
+TITLE="Core"
+HREF="ref.core.html"><LINK
+REL="STYLESHEET"
+TYPE="text/css"
+HREF="/base.css"></HEAD
+><BODY
+CLASS="PART"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>libusb Developers Guide</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="api-return-values.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="ref.core.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="PART"
+><A
+NAME="FUNCTIONS"
+></A
+><DIV
+CLASS="TITLEPAGE"
+><H1
+CLASS="TITLE"
+>III. Functions</H1
+><DIV
+CLASS="TOC"
+><DL
+><DT
+><B
+>Table of Contents</B
+></DT
+><DT
+>I. <A
+HREF="ref.core.html"
+>Core</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="function.usbinit.html"
+>usb_init</A
+>&nbsp;--&nbsp;Initialize libusb</DT
+><DT
+><A
+HREF="function.usbfindbusses.html"
+>usb_find_busses</A
+>&nbsp;--&nbsp;Finds all USB busses on system</DT
+><DT
+><A
+HREF="function.usbfinddevices.html"
+>usb_find_devices</A
+>&nbsp;--&nbsp;Find all devices on all USB devices</DT
+><DT
+><A
+HREF="function.usbgetbusses.html"
+>usb_get_busses</A
+>&nbsp;--&nbsp;Return the list of USB busses found</DT
+></DL
+></DD
+><DT
+>II. <A
+HREF="ref.deviceops.html"
+>Device operations</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="function.usbopen.html"
+>usb_open</A
+>&nbsp;--&nbsp;Opens a USB device</DT
+><DT
+><A
+HREF="function.usbclose.html"
+>usb_close</A
+>&nbsp;--&nbsp;Closes a USB device</DT
+><DT
+><A
+HREF="function.usbsetconfiguration.html"
+>usb_set_configuration</A
+>&nbsp;--&nbsp;Sets the active configuration of a device</DT
+><DT
+><A
+HREF="function.usbsetaltinterface.html"
+>usb_set_altinterface</A
+>&nbsp;--&nbsp;Sets the active alternate setting of the current interface</DT
+><DT
+><A
+HREF="function.usbresetep.html"
+>usb_resetep</A
+>&nbsp;--&nbsp;Resets state for an endpoint</DT
+><DT
+><A
+HREF="function.usbclearhalt.html"
+>usb_clear_halt</A
+>&nbsp;--&nbsp;Clears any halt status on an endpoint</DT
+><DT
+><A
+HREF="function.usbreset.html"
+>usb_reset</A
+>&nbsp;--&nbsp;Resets a device</DT
+><DT
+><A
+HREF="function.usbclaiminterface.html"
+>usb_claim_interface</A
+>&nbsp;--&nbsp;Claim an interface of a device</DT
+><DT
+><A
+HREF="function.usbreleaseinterface.html"
+>usb_release_interface</A
+>&nbsp;--&nbsp;Releases a previously claimed interface</DT
+></DL
+></DD
+><DT
+>III. <A
+HREF="ref.control.html"
+>Control Transfers</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="function.usbcontrolmsg.html"
+>usb_control_msg</A
+>&nbsp;--&nbsp;Send a control message to a device</DT
+><DT
+><A
+HREF="function.usbgetstring.html"
+>usb_get_string</A
+>&nbsp;--&nbsp;Retrieves a string descriptor from a device</DT
+><DT
+><A
+HREF="function.usbgetstringsimple.html"
+>usb_get_string_simple</A
+>&nbsp;--&nbsp;Retrieves a string descriptor from a device using the first language</DT
+><DT
+><A
+HREF="function.usbgetdescriptor.html"
+>usb_get_descriptor</A
+>&nbsp;--&nbsp;Retrieves a descriptor from a device's default control pipe</DT
+><DT
+><A
+HREF="function.usbgetdescriptorbyendpoint.html"
+>usb_get_descriptor_by_endpoint</A
+>&nbsp;--&nbsp;Retrieves a descriptor from a device</DT
+></DL
+></DD
+><DT
+>IV. <A
+HREF="ref.bulk.html"
+>Bulk Transfers</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="function.usbbulkwrite.html"
+>usb_bulk_write</A
+>&nbsp;--&nbsp;Write data to a bulk endpoint</DT
+><DT
+><A
+HREF="function.usbbulkread.html"
+>usb_bulk_read</A
+>&nbsp;--&nbsp;Read data from a bulk endpoint</DT
+></DL
+></DD
+><DT
+>V. <A
+HREF="ref.interrupt.html"
+>Interrupt Transfers</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="function.usbinterruptwrite.html"
+>usb_interrupt_write</A
+>&nbsp;--&nbsp;Write data to an interrupt endpoint</DT
+><DT
+><A
+HREF="function.usbinterruptread.html"
+>usb_interrupt_read</A
+>&nbsp;--&nbsp;Read data from a interrupt endpoint</DT
+></DL
+></DD
+><DT
+>VI. <A
+HREF="ref.nonportable.html"
+>Non Portable</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="function.usbgetdrivernp.html"
+>usb_get_driver_np</A
+>&nbsp;--&nbsp;Get driver name bound to interface</DT
+><DT
+><A
+HREF="function.usbdetachkerneldrivernp.html"
+>usb_detach_kernel_driver_np</A
+>&nbsp;--&nbsp;Detach kernel driver from interface</DT
+></DL
+></DD
+></DL
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="api-return-values.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="ref.core.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Return values</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Core</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

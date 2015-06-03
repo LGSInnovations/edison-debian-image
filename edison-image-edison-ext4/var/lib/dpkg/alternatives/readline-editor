@@ -1,0 +1,9 @@
+auto
+/usr/bin/readline-editor
+readline-editor.1.gz
+/usr/share/man/man1/readline-editor.1.gz
+
+/usr/bin/rlwrap
+60
+/usr/share/man/man1/rlwrap.1.gz
+

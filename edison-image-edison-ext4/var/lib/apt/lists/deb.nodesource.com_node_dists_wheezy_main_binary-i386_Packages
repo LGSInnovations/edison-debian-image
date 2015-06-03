@@ -1,0 +1,136 @@
+Package: libisl-dbg
+Source: isl
+Version: 0.12.2-1nodesource1~wheezy1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 2918
+Depends: libisl10 (= 0.12.2-1nodesource1~wheezy1)
+Replaces: libisl-dev (<< 0.08)
+Multi-Arch: same
+Homepage: http://freecode.com/projects/isl
+Priority: extra
+Section: debug
+Filename: pool/main/i/isl/libisl-dbg_0.12.2-1nodesource1~wheezy1_i386.deb
+Size: 1201354
+SHA256: 30cd01c5a8690f0d33e806f19ccd3deda097cdeb4ce83ee64d07e19fbe871ad4
+SHA1: 581e84faee8399e4e55ad4193daf6a8a8ca2bafc
+MD5sum: a4c4b8e404042a6d75dd5c41b5251949
+Description: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains debug files.
+
+Package: libisl-dev
+Source: isl
+Version: 0.12.2-1nodesource1~wheezy1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1912
+Depends: libisl10 (= 0.12.2-1nodesource1~wheezy1)
+Multi-Arch: same
+Homepage: http://freecode.com/projects/isl
+Priority: optional
+Section: libdevel
+Filename: pool/main/i/isl/libisl-dev_0.12.2-1nodesource1~wheezy1_i386.deb
+Size: 624996
+SHA256: 0e523d597de0a0d1b48da357acc88f14c40723f9f92fe95cc6c579a30aab0389
+SHA1: 3405c1cef8bc41bff72e4268c776e709cf06266a
+MD5sum: 0b0cb7d7c634ab6b2706579129faec50
+Description: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains the development files.
+
+Package: libisl10
+Source: isl
+Version: 0.12.2-1nodesource1~wheezy1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1458
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libgmp10
+Multi-Arch: same
+Homepage: http://freecode.com/projects/isl
+Priority: optional
+Section: libs
+Filename: pool/main/i/isl/libisl10_0.12.2-1nodesource1~wheezy1_i386.deb
+Size: 583354
+SHA256: cf841848832b4996960309d034b73d20d4127b4abd7b410acf1368b6ab12c64f
+SHA1: 95e2651af592ce77c2a354c308610e060862206d
+MD5sum: 8480e5eb9f58f25002289a84f96ae479
+Description: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains the runtime library.
+
+Package: nodejs
+Version: 0.10.36-1nodesource1~wheezy1
+Architecture: i386
+Maintainer: Chris Lea <chl@nodesource.com>
+Installed-Size: 19410
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), rlwrap
+Conflicts: nodejs-dev, nodejs-legacy, npm
+Replaces: nodejs-dev, nodejs-legacy, npm
+Provides: nodejs-dev, nodejs-legacy, npm
+Homepage: http://nodejs.org/
+Priority: extra
+Section: web
+Filename: pool/main/n/nodejs/nodejs_0.10.36-1nodesource1~wheezy1_i386.deb
+Size: 6008064
+SHA256: fa961eee4e6d3fd81dbb86e93d011649fabf2d45b04513a2c9b6b87189d90c07
+SHA1: f9583051f893dcba0bc789bd6408effd4e53b328
+MD5sum: fa4abd7ccdf08aa51b9d64877dbb4718
+Description: Node.js event-based server-side javascript engine
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: nodejs-dbg
+Source: nodejs
+Version: 0.10.36-1nodesource1~wheezy1
+Architecture: i386
+Maintainer: Chris Lea <chl@nodesource.com>
+Installed-Size: 2145
+Depends: nodejs (= 0.10.36-1nodesource1~wheezy1)
+Homepage: http://nodejs.org/
+Priority: extra
+Section: debug
+Filename: pool/main/n/nodejs/nodejs-dbg_0.10.36-1nodesource1~wheezy1_i386.deb
+Size: 731832
+SHA256: a4315744afa7023a0a06a11a346364839897b8e482d544e32e3cf0e3e4e6b60d
+SHA1: fa62b531158d7276d4e098ad39488af7ccaf08cd
+MD5sum: d657f403610e73922a2c7d64f92af38e
+Description: Node.js event-based server-side javascript engine (debug)
+ Node.js is similar in design to and influenced by systems like
+ Ruby's Event Machine or Python's Twisted.
+ .
+ It takes the event model a bit further - it presents the event
+ loop as a language construct instead of as a library.
+ .
+ Node.js is bundled with several useful libraries to handle server tasks :
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+ .
+ This package contains the debugging symbols.
+

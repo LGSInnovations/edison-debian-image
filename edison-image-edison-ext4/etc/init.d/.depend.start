@@ -1,0 +1,13 @@
+TARGETS = rsyslog hostapd killprocs bootlogs motd udhcpd dbus single ssh ntp cron rsync avahi-daemon galileod.sh rmnologin rc.local
+INTERACTIVE =
+udhcpd: rsyslog
+dbus: rsyslog
+single: killprocs bootlogs motd
+ssh: rsyslog
+ntp: rsyslog
+cron: rsyslog
+rsync: rsyslog
+avahi-daemon: dbus rsyslog
+galileod.sh: udhcpd rsyslog avahi-daemon dbus hostapd bootlogs motd ssh ntp cron rsync
+rmnologin: udhcpd rsyslog avahi-daemon dbus hostapd bootlogs motd ssh ntp cron rsync
+rc.local: udhcpd rsyslog avahi-daemon dbus hostapd bootlogs motd ssh ntp cron rsync

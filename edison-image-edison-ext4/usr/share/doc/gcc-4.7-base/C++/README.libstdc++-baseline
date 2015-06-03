@@ -1,0 +1,24 @@
+The libstdc++ baseline file is a list of symbols exported by the
+libstdc++ library.
+A baseline file for i486-linux-gnu was found.
+Running the check-abi script ...
+
+make[2]: Entering directory `/build/buildd-gcc-4.7_4.7.2-5-i386-kE6fVM/gcc-4.7-4.7.2/build/i486-linux-gnu/libstdc++-v3/testsuite'
+Test Run By buildd on Mon Jan  7 04:52:50 2013
+Native configuration is i486-pc-linux-gnu
+
+		=== libstdc++ tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../../../src/libstdc++-v3/testsuite/config/default.exp as tool-and-target-specific interface file.
+Running ../../../../src/libstdc++-v3/testsuite/libstdc++-abi/abi.exp ...
+
+		=== libstdc++ Summary ===
+
+# of expected passes		1
+make[2]: Leaving directory `/build/buildd-gcc-4.7_4.7.2-5-i386-kE6fVM/gcc-4.7-4.7.2/build/i486-linux-gnu/libstdc++-v3/testsuite'

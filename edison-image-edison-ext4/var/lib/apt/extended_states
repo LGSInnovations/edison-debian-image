@@ -1,0 +1,536 @@
+Package: libkeyutils1
+Architecture: i386
+Auto-Installed: 1
+
+Package: dmsetup
+Architecture: i386
+Auto-Installed: 1
+
+Package: libpci3
+Architecture: i386
+Auto-Installed: 1
+
+Package: libedit2
+Architecture: i386
+Auto-Installed: 1
+
+Package: libkrb5-3
+Architecture: i386
+Auto-Installed: 1
+
+Package: libkrb5support0
+Architecture: i386
+Auto-Installed: 1
+
+Package: openssh-blacklist-extra
+Architecture: i386
+Auto-Installed: 1
+
+Package: libwrap0
+Architecture: i386
+Auto-Installed: 1
+
+Package: krb5-locales
+Architecture: i386
+Auto-Installed: 1
+
+Package: libx11-data
+Architecture: i386
+Auto-Installed: 1
+
+Package: xauth
+Architecture: i386
+Auto-Installed: 1
+
+Package: ncurses-term
+Architecture: i386
+Auto-Installed: 1
+
+Package: libusb-1.0-0
+Architecture: i386
+Auto-Installed: 1
+
+Package: libbsd0
+Architecture: i386
+Auto-Installed: 1
+
+Package: libxmuu1
+Architecture: i386
+Auto-Installed: 1
+
+Package: libparted0debian1
+Architecture: i386
+Auto-Installed: 1
+
+Package: libdevmapper1.02.1
+Architecture: i386
+Auto-Installed: 1
+
+Package: libk5crypto3
+Architecture: i386
+Auto-Installed: 1
+
+Package: tcpd
+Architecture: i386
+Auto-Installed: 1
+
+Package: openssh-client
+Architecture: i386
+Auto-Installed: 1
+
+Package: libxcb1
+Architecture: i386
+Auto-Installed: 1
+
+Package: libxau6
+Architecture: i386
+Auto-Installed: 1
+
+Package: libxdmcp6
+Architecture: i386
+Auto-Installed: 1
+
+Package: openssh-blacklist
+Architecture: i386
+Auto-Installed: 1
+
+Package: libx11-6
+Architecture: i386
+Auto-Installed: 1
+
+Package: libgssapi-krb5-2
+Architecture: i386
+Auto-Installed: 1
+
+Package: libxext6
+Architecture: i386
+Auto-Installed: 1
+
+Package: libnl-3-200
+Architecture: i386
+Auto-Installed: 1
+
+Package: libdbus-1-3
+Architecture: i386
+Auto-Installed: 1
+
+Package: libcap2
+Architecture: i386
+Auto-Installed: 1
+
+Package: libexpat1
+Architecture: i386
+Auto-Installed: 1
+
+Package: libpcsclite1
+Architecture: i386
+Auto-Installed: 1
+
+Package: dbus
+Architecture: i386
+Auto-Installed: 1
+
+Package: libiw30
+Architecture: i386
+Auto-Installed: 1
+
+Package: libsystemd-login0
+Architecture: i386
+Auto-Installed: 1
+
+Package: libnl-genl-3-200
+Architecture: i386
+Auto-Installed: 1
+
+Package: libreadline5
+Architecture: i386
+Auto-Installed: 1
+
+Package: busybox
+Architecture: i386
+Auto-Installed: 1
+
+Package: libgmp10
+Architecture: i386
+Auto-Installed: 1
+
+Package: libmpfr4
+Architecture: i386
+Auto-Installed: 1
+
+Package: mime-support
+Architecture: i386
+Auto-Installed: 1
+
+Package: libstdc++6-4.7-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: g++-4.7
+Architecture: i386
+Auto-Installed: 1
+
+Package: manpages-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: libc-dev-bin
+Architecture: i386
+Auto-Installed: 1
+
+Package: libgomp1
+Architecture: i386
+Auto-Installed: 1
+
+Package: linux-libc-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: python2.7
+Architecture: i386
+Auto-Installed: 1
+
+Package: python-minimal
+Architecture: i386
+Auto-Installed: 1
+
+Package: gcc-4.7
+Architecture: i386
+Auto-Installed: 1
+
+Package: python2.7-minimal
+Architecture: i386
+Auto-Installed: 1
+
+Package: cpp
+Architecture: i386
+Auto-Installed: 1
+
+Package: libgpm2
+Architecture: i386
+Auto-Installed: 1
+
+Package: file
+Architecture: i386
+Auto-Installed: 1
+
+Package: libc6-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: vim-runtime
+Architecture: i386
+Auto-Installed: 1
+
+Package: libitm1
+Architecture: i386
+Auto-Installed: 1
+
+Package: libquadmath0
+Architecture: i386
+Auto-Installed: 1
+
+Package: cpp-4.7
+Architecture: i386
+Auto-Installed: 1
+
+Package: binutils
+Architecture: i386
+Auto-Installed: 1
+
+Package: libmpc2
+Architecture: i386
+Auto-Installed: 1
+
+Package: libmagic1
+Architecture: i386
+Auto-Installed: 1
+
+Package: libsasl2-modules
+Architecture: i386
+Auto-Installed: 1
+
+Package: libcurl3-gnutls
+Architecture: i386
+Auto-Installed: 1
+
+Package: libssh2-1
+Architecture: i386
+Auto-Installed: 1
+
+Package: ca-certificates
+Architecture: i386
+Auto-Installed: 1
+
+Package: libldap-2.4-2
+Architecture: i386
+Auto-Installed: 1
+
+Package: libsasl2-2
+Architecture: i386
+Auto-Installed: 1
+
+Package: openssl
+Architecture: i386
+Auto-Installed: 1
+
+Package: librtmp0
+Architecture: i386
+Auto-Installed: 1
+
+Package: rlwrap
+Architecture: i386
+Auto-Installed: 1
+
+Package: libclass-isa-perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: libswitch-perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: libopts25
+Architecture: i386
+Auto-Installed: 1
+
+Package: perl-modules
+Architecture: i386
+Auto-Installed: 1
+
+Package: lynx-cur
+Architecture: i386
+Auto-Installed: 1
+
+Package: bind9-host
+Architecture: i386
+Auto-Installed: 1
+
+Package: libavahi-common-data
+Architecture: i386
+Auto-Installed: 1
+
+Package: libdns88
+Architecture: i386
+Auto-Installed: 1
+
+Package: xml-core
+Architecture: i386
+Auto-Installed: 1
+
+Package: libisccc80
+Architecture: i386
+Auto-Installed: 1
+
+Package: geoip-database
+Architecture: i386
+Auto-Installed: 1
+
+Package: libnss-mdns
+Architecture: i386
+Auto-Installed: 1
+
+Package: liblwres80
+Architecture: i386
+Auto-Installed: 1
+
+Package: crda
+Architecture: i386
+Auto-Installed: 1
+
+Package: libxml2
+Architecture: i386
+Auto-Installed: 1
+
+Package: libbind9-80
+Architecture: i386
+Auto-Installed: 1
+
+Package: sgml-base
+Architecture: i386
+Auto-Installed: 1
+
+Package: libgeoip1
+Architecture: i386
+Auto-Installed: 1
+
+Package: libdaemon0
+Architecture: i386
+Auto-Installed: 1
+
+Package: libisccfg82
+Architecture: i386
+Auto-Installed: 1
+
+Package: wireless-regdb
+Architecture: i386
+Auto-Installed: 1
+
+Package: libisc84
+Architecture: i386
+Auto-Installed: 1
+
+Package: libavahi-common3
+Architecture: i386
+Auto-Installed: 1
+
+Package: libavahi-core7
+Architecture: i386
+Auto-Installed: 1
+
+Package: lrzsz
+Architecture: i386
+Auto-Installed: 1
+
+Package: libical0
+Architecture: i386
+Auto-Installed: 1
+
+Package: shared-mime-info
+Architecture: i386
+Auto-Installed: 1
+
+Package: pkg-config
+Architecture: i386
+Auto-Installed: 1
+
+Package: libglib2.0-bin
+Architecture: i386
+Auto-Installed: 1
+
+Package: libpcre3-dev
+Architecture: i386
+Auto-Installed: 0
+
+Package: m4
+Architecture: i386
+Auto-Installed: 1
+
+Package: autoconf
+Architecture: i386
+Auto-Installed: 1
+
+Package: libpcre3
+Architecture: i386
+Auto-Installed: 1
+
+Package: libpcrecpp0
+Architecture: i386
+Auto-Installed: 1
+
+Package: libffi5
+Architecture: i386
+Auto-Installed: 1
+
+Package: libelf1
+Architecture: i386
+Auto-Installed: 1
+
+Package: autotools-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: zlib1g-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: libglib2.0-data
+Architecture: i386
+Auto-Installed: 1
+
+Package: libreadline6-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: libglib2.0-0
+Architecture: i386
+Auto-Installed: 1
+
+Package: libtinfo-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: libnettle4
+Architecture: i386
+Auto-Installed: 1
+
+Package: cmake-data
+Architecture: i386
+Auto-Installed: 1
+
+Package: libxmlrpc-core-c3
+Architecture: i386
+Auto-Installed: 1
+
+Package: emacsen-common
+Architecture: i386
+Auto-Installed: 1
+
+Package: libcurl3
+Architecture: i386
+Auto-Installed: 1
+
+Package: libarchive12
+Architecture: i386
+Auto-Installed: 1
+
+Package: git-man
+Architecture: i386
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: rsync
+Architecture: i386
+Auto-Installed: 1
+
+Package: patch
+Architecture: i386
+Auto-Installed: 1
+
+Package: less
+Architecture: i386
+Auto-Installed: 1
+
+Package: libv8-3.14-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: libc-ares-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: libssl-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: libssl-doc
+Architecture: i386
+Auto-Installed: 1
+
+Package: libv8-3.14.5
+Architecture: i386
+Auto-Installed: 1
+
+Package: libc-ares2
+Architecture: i386
+Auto-Installed: 1
+
+Package: libpython2.7
+Architecture: i386
+Auto-Installed: 1
+
+Package: libexpat1-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: python2.7-dev
+Architecture: i386
+Auto-Installed: 1
+

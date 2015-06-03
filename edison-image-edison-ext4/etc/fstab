@@ -1,0 +1,13 @@
+#rootfs              /                   auto       nodev,noatime,discard,barrier=1,data=ordered,noauto_da_alloc    1  1
+/dev/root            /                   ext4       defaults,noatime      0  0
+proc                 /proc               proc       defaults              0  0
+devpts               /dev/pts            devpts     mode=0620,gid=5       0  0
+#usbdevfs            /proc/bus/usb       usbdevfs   auto                  0  0
+debugfs              /sys/kernel/debug   debugfs    auto                  0  0
+tmpfs                /run                tmpfs      mode=0755,nodev,nosuid,strictatime 0  0
+#tmpfs                /var/volatile       tmpfs      defaults              0  0
+tmpfs                /tmp                tmpfs      defaults              0  0
+
+#/dev/mmcblk0p7      /boot       auto    defaults     1   1
+#/dev/mmcblk0p10     /home       auto    defaults     1   1
+

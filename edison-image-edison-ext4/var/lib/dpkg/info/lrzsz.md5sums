@@ -1,0 +1,17 @@
+38f5461446d8c37606e445da5814de9e  usr/share/locale/de/LC_MESSAGES/lrzsz.mo
+6c0949206fd0ecbf77d4553d5d83e1a0  usr/share/doc/lrzsz/changelog.gz
+183535a65ee4823d2746b2883da0de25  usr/share/doc/lrzsz/README.isdn4linux
+87b7eedb02d7eb191374fafce17a5d6f  usr/share/doc/lrzsz/changelog.Debian.gz
+e17506df728e0026c20af6068f9633eb  usr/share/doc/lrzsz/README.cvs
+cceb556eeeaa91a47a31f457b5d844f5  usr/share/doc/lrzsz/copyright
+483271492a93f8aa24797f4c4128f625  usr/share/doc/lrzsz/NEWS.gz
+d46c75d90a1a83260d16f5fad8bc4ce3  usr/share/doc/lrzsz/README
+31bdafbb81fb7651ca9a8e4611d48f72  usr/share/doc/lrzsz/TODO
+166416113882d4ffa6407346a651da33  usr/share/man/man1/rz.1.gz
+672172d64d5299e15fb531eeddd590d0  usr/share/man/man1/sz.1.gz
+083a442d2c7d76442dcdc0207026a4a9  usr/bin/rz
+85660ef47385f4a7b6041bdda796ce97  usr/bin/sb
+083a442d2c7d76442dcdc0207026a4a9  usr/bin/rx
+85660ef47385f4a7b6041bdda796ce97  usr/bin/sx
+85660ef47385f4a7b6041bdda796ce97  usr/bin/sz
+083a442d2c7d76442dcdc0207026a4a9  usr/bin/rb

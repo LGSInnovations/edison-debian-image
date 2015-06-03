@@ -1,0 +1,16 @@
+88a6027ede58dc114a581e0efbed04e8  usr/include/v8-debug.h
+684b1fb06342f8124f07b26be46f1825  usr/include/v8-preparser.h
+c7acd34631bcb500a0bd4ad4e36a7983  usr/include/v8-profiler.h
+c74d0a0e0ea0a3cb72409c45cefad716  usr/include/v8-testing.h
+641c2a9abb2362c1854896d484f402d4  usr/include/v8.h
+67eda2b242af75ae4aacf75b3401e966  usr/include/v8stdint.h
+8c187849c9170bd784af5677eb01faab  usr/share/doc/libv8-3.14-dev/AUTHORS
+445a9464f72b0b0fbcab7699e1bb0ef6  usr/share/doc/libv8-3.14-dev/buildinfo_i386.gz
+59c1832369c4cc3fb58bc08fd5628d3f  usr/share/doc/libv8-3.14-dev/changelog.Debian.gz
+bcd79c9c2d743d09a42c3c871a65bc25  usr/share/doc/libv8-3.14-dev/changelog.gz
+b982bb35bbc35f06248ecbc181e50f27  usr/share/doc/libv8-3.14-dev/copyright
+6d68643bf54e95e690e9c956fcb92770  usr/share/doc/libv8-3.14-dev/examples/count-hosts.js
+8efa76c00da24dcc3e8f3f65eb7f88bb  usr/share/doc/libv8-3.14-dev/examples/lineprocessor.cc.gz
+c309523e28716ccdf5a5f088d7375bdc  usr/share/doc/libv8-3.14-dev/examples/process.cc.gz
+dfbc8082c5de75f4b0f32cd3f51c0bb8  usr/share/doc/libv8-3.14-dev/examples/samples.gyp
+2aace7f34579f1434e0f538785877cc2  usr/share/doc/libv8-3.14-dev/examples/shell.cc.gz

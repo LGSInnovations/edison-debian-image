@@ -1,0 +1,9 @@
+auto
+/usr/bin/js
+js.1.gz
+/usr/share/man/man1/js.1.gz
+
+/usr/bin/nodejs
+200
+/usr/share/man/man1/nodejs.1.gz
+

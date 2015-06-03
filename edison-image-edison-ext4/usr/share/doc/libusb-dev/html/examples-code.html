@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<HTML
+><HEAD
+><TITLE
+>Basic Examples</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.79"><LINK
+REL="HOME"
+TITLE="libusb Developers Guide"
+HREF="index.html"><LINK
+REL="UP"
+TITLE="Examples"
+HREF="examples.html"><LINK
+REL="PREVIOUS"
+TITLE="Examples"
+HREF="examples.html"><LINK
+REL="NEXT"
+TITLE="Examples in the source distribution"
+HREF="examples-tests.html"><LINK
+REL="STYLESHEET"
+TYPE="text/css"
+HREF="/base.css"></HEAD
+><BODY
+CLASS="CHAPTER"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>libusb Developers Guide</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="examples.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="examples-tests.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="CHAPTER"
+><H1
+><A
+NAME="EXAMPLES-CODE"
+></A
+>Chapter 8. Basic Examples</H1
+><P
+>Before any communication can occur with a device, it needs to be found. This is accomplished by finding all of the busses and then finding all of the devices on all of the busses:</P
+><TABLE
+BORDER="0"
+BGCOLOR="#E0E0E0"
+WIDTH="100%"
+><TR
+><TD
+><PRE
+CLASS="PROGRAMLISTING"
+>    	struct usb_bus *busses;
+    
+    	usb_init();
+    	usb_find_busses();
+    	usb_find_devices();
+    
+    	busses = usb_get_busses();
+        </PRE
+></TD
+></TR
+></TABLE
+><P
+>After this, the application should manually loop through all of the busess and all of the devices and matching the device by whatever criteria is needed:</P
+><TABLE
+BORDER="0"
+BGCOLOR="#E0E0E0"
+WIDTH="100%"
+><TR
+><TD
+><PRE
+CLASS="PROGRAMLISTING"
+>    	struct usb_bus *bus;
+    	int c, i, a;
+    
+    	/* ... */
+    
+    	for (bus = busses; bus; bus = bus-&#62;next) {
+    		struct usb_device *dev;
+    
+    		for (dev = bus-&#62;devices; dev; dev = dev-&#62;next) {
+    			/* Check if this device is a printer */
+    			if (dev-&#62;descriptor.bDeviceClass == 7) {
+    				/* Open the device, claim the interface and do your processing */
+    				...
+    			}
+    
+    			/* Loop through all of the configurations */
+    			for (c = 0; c &#60; dev-&#62;descriptor.bNumConfigurations; c++) {
+    				/* Loop through all of the interfaces */
+    				for (i = 0; i &#60; dev-&#62;config[c].bNumInterfaces; i++) {
+    					/* Loop through all of the alternate settings */
+    					for (a = 0; a &#60; dev-&#62;config[c].interface[i].num_altsetting; a++) {
+    						/* Check if this interface is a printer */
+    						if (dev-&#62;config[c].interface[i].altsetting[a].bInterfaceClass == 7) {
+    							/* Open the device, set the alternate setting, claim the interface and do your processing */
+    							...
+    						}
+    					}
+    				}
+    			}
+    		}
+    	}
+        </PRE
+></TD
+></TR
+></TABLE
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="examples.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="examples-tests.html"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Examples</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="examples.html"
+ACCESSKEY="U"
+>Up</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Examples in the source distribution</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

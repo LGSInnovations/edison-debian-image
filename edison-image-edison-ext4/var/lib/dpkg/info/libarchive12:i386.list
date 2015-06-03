@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/i386-linux-gnu
+/usr/lib/i386-linux-gnu/libarchive.so.12.0.4
+/usr/share
+/usr/share/doc
+/usr/share/doc/libarchive12
+/usr/share/doc/libarchive12/changelog.Debian.gz
+/usr/share/doc/libarchive12/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libarchive12
+/usr/lib/i386-linux-gnu/libarchive.so.12
