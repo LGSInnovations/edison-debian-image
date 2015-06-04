@@ -1,0 +1,24 @@
+#!/bin/bash
+# Set the MAC address of eth0.  This script is intended to be placed
+# in /etc/network/if-pre-up.d/
+
+# This will set eth0 while the system is working on lo
+if [ ! "$IFACE" == "lo" ];
+then
+    exit 0 
+fi
+
+OUI="00:1e:c0" #MICROCHIP OUI
+FOURTH=$(openssl rand -hex 1)
+FIFTH=$(openssl rand -hex 1)
+SIXTH=$(openssl rand -hex 1)
+
+ETH0="$OUI:$FOURTH:$FIFTH:$SIXTH"
+
+# Only do the work if eth0 is an interface
+ifconfig eth0 > /dev/null
+if [[ $? -eq 0 ]];
+then
+    echo "Setting eth0 MAC to $ETH0"
+    macchanger -m $ETH0 eth0 > /dev/null
+fi
