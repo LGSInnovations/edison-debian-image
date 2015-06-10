@@ -37,6 +37,16 @@ factory_partition () {
         echo "00:11:22:33:55:66" > /factory/bluetooth_address
         echo "VSPPYWWDXXXXXNNN" > /factory/serial_number
     fi
+
+    echo "__MAC_ADDRESS__" > /factory/mac
+}
+
+# Install some dependencies that were put into /var/cache/apt/archives
+install_deps () {
+    apt-get autoremove -y
+    apt-get install -y macchanger #sudo
+    # save some space
+    #apt-get clean
 }
 
 # generate sshd keys
@@ -104,6 +114,9 @@ fi_assert $? "Formatting update partition"
 # handle factory partition
 factory_partition
 
+# install some dependencies
+install_deps
+
 # ssh
 sshd_init
 fi_assert $? "Generating sshd keys"
@@ -111,6 +124,7 @@ fi_assert $? "Generating sshd keys"
 # update entry in /etc/fstab to enable auto mount
 sed -i 's/#\/dev\/mmcblk0p7/\/dev\/mmcblk0p7/g' /etc/fstab
 sed -i 's/#\/dev\/mmcblk0p10/\/dev\/mmcblk0p10/g' /etc/fstab
+sed -i 's/#\/dev\/mmcblk0p5/\/dev\/mmcblk0p5/g' /etc/fstab
 fi_assert $? "Update file system table /etc/fstab"
 
 # Setup Access Point SSID and passphrase
@@ -123,4 +137,3 @@ echo "First install Done"
 
 # end main part
 exit_first_install 0
-

@@ -1,0 +1,60 @@
+#!/bin/bash
+# This script will change the MAC Address of eth0
+
+# trap ctrl-c and call ctrl_c()
+trap ctrl_c INT
+
+function ctrl_c() {
+   echo
+   echo
+   exit 1;
+}
+
+usage() {
+   echo
+   echo "usage: changemac <valid MAC address> [--save]"
+   echo
+   echo "Note: Some MAC addresses will be rejected (especially if OUI is unknown)"
+   echo
+}
+
+# Make sure only root can run our script
+if [ "$(id -u)" != "0" ]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
+
+if [[ "$1" == "-h" ]];
+then
+   usage
+   exit 0
+fi
+
+if [[ ! "$1" =~ ^([0-9A-Fa-f]{2}[:-]){5}([0-9a-fA-F]{2})$ ]];
+then
+   echo
+   echo "ERR: Please provide a valid MAC address in the format: xx:xx:xx:xx:xx:xx"
+   usage
+   exit 1
+fi
+
+MAC=$1
+
+if [[ "$2" == "--save" ]];
+then
+   echo $MAC > /factory/mac
+fi
+
+ifconfig | grep "eth0"
+if [[ $? -eq 0 ]];
+then
+   ifdown eth0 > /dev/null
+   sleep 3
+   echo
+   echo -e "\033[1m"
+   macchanger -m $MAC eth0
+   echo -e "\033[0m"
+   echo
+   sleep 3
+   ifup eth0
+fi
