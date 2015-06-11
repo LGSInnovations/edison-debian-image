@@ -5,6 +5,8 @@ The ext4 partition to flash the Intel Edison, based on [Ubilinux](http://www.emu
 
 For more info on contributing or using this image, see the [Edison Ethernet project](https://github.com/LGSInnovations/Edison-Ethernet).
 
+**Warning**: Only clone this repo on a Linux based machine -- Windows and Mac OS X will complain about invalid file naming.
+
 ### Files Added/Changed ###
 
 ```bash
