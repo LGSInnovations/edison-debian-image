@@ -10,4 +10,6 @@ tmpfs                /tmp                tmpfs      defaults              0  0
 
 #/dev/mmcblk0p7      /boot       auto    defaults     1   1
 #/dev/mmcblk0p10     /home       auto    defaults     1   1
+#/dev/mmcblk0p5      /factory    auto    defaults     1   1
+
 
