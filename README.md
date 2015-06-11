@@ -29,6 +29,11 @@ Below is a directory tree of files added(\*\*) or changed(\*) with a short descr
 	|	+-- ...
 	|	+-- fstab* :: Added the /factory (/dev/mmcblk0p5) partition to be mounted on boot
 	+-- ...
+	+-- lib/
+	|	+-- crda/
+	|	+-- ...
+	|	+-- modules/
+	|	|	+-- 3.10.17-yocto-standard/** :: has the kernel modules needed for the Yocto kernel
 	+-- root/
 	|	+-- .profile* :: Added useful aliases
 	+-- sbin/
