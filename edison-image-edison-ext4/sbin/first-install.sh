@@ -49,6 +49,11 @@ install_deps () {
     #apt-get clean
 }
 
+# Set some permissions/chown some files
+perm_fixes () {
+    chown -R man /var/cache/man
+}
+
 # generate sshd keys
 sshd_init () {
     rm -rf /etc/ssh/*key*
@@ -113,6 +118,9 @@ fi_assert $? "Formatting update partition"
 
 # handle factory partition
 factory_partition
+
+# chown files
+perm_fixes
 
 # install some dependencies
 install_deps
