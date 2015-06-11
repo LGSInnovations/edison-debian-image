@@ -9,7 +9,7 @@ For more info on contributing or using this image, see the [Edison Ethernet proj
 
 ### Files Added/Changed ###
 
-Below is a directory tree of files added(**) or changed(*) with a short description.
+Below is a directory tree of files added(\*\*) or changed(\*) with a short description.
 
 ```bash
 	/
