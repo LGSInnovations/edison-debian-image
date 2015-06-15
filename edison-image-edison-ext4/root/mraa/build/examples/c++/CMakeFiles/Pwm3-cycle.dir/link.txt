@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Pwm3-cycle.dir/Pwm3-cycle.cpp.o  -o Pwm3-cycle -rdynamic ../../src/libmraa.so.0.5.4 -lstdc++ -lpthread -Wl,-rpath,/root/mraa/build/src 

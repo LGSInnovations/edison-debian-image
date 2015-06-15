@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../api/mraa/common.h
+types.h
+../api/mraa/types.h
+
+../api/mraa/gpio.h
+Python.h
+-
+stdio.h
+-
+pthread.h
+-
+common.h
+../api/mraa/common.h
+
+../api/mraa/types.h
+
+/root/mraa/examples/blink_onboard.c
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+mraa/gpio.h
+/root/mraa/examples/mraa/gpio.h
+

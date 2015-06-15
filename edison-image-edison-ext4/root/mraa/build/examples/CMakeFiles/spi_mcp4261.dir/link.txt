@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/spi_mcp4261.dir/spi_mcp4261.c.o  -o spi_mcp4261 -rdynamic ../src/libmraa.so.0.5.4 -lpthread -Wl,-rpath,/root/mraa/build/src 

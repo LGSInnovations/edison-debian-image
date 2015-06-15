@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/uart_setup.dir/uart_setup.c.o  -o uart_setup -rdynamic ../src/libmraa.so.0.5.4 -lpthread -Wl,-rpath,/root/mraa/build/src 

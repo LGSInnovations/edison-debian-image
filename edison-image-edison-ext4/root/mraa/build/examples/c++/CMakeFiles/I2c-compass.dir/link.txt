@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/I2c-compass.dir/I2c-compass.cpp.o  -o I2c-compass -rdynamic ../../src/libmraa.so.0.5.4 -lstdc++ -lm -lpthread -Wl,-rpath,/root/mraa/build/src 

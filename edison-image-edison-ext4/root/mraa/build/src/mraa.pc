@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mraa
+Description: Low Level Skeleton Library for Communication
+Version: 0.5.4
+
+Libs: -L${libdir} -lmraa
+Cflags: -I${includedir}

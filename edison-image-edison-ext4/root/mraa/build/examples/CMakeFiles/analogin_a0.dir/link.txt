@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/analogin_a0.dir/analogin_a0.c.o  -o analogin_a0 -rdynamic ../src/libmraa.so.0.5.4 -lpthread -Wl,-rpath,/root/mraa/build/src 

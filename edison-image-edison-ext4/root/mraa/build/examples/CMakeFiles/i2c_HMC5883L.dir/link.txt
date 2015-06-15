@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/i2c_HMC5883L.dir/i2c_HMC5883L.c.o  -o i2c_HMC5883L -rdynamic ../src/libmraa.so.0.5.4 -lm -lpthread -Wl,-rpath,/root/mraa/build/src 

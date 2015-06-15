@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/gpio_read6.dir/gpio_read6.c.o  -o gpio_read6 -rdynamic ../src/libmraa.so.0.5.4 -lpthread -Wl,-rpath,/root/mraa/build/src 

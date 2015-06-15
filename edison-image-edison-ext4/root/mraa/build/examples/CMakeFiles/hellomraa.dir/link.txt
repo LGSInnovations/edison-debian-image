@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/hellomraa.dir/hellomraa.c.o  -o hellomraa -rdynamic ../src/libmraa.so.0.5.4 -lpthread -Wl,-rpath,/root/mraa/build/src 
